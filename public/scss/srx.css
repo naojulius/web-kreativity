@@ -1,0 +1,57 @@
+
+/* about input section  */
+.xx-srx{
+    margin-top: 0px;
+    height: 50px;
+    /* background-color: var(--little-green); */
+}
+  #srx-addon-target{
+    transition: all 1s;
+  }
+  .srx-start{
+    align-items: end;
+    justify-content: center;
+  }
+  .srx-ico{
+    z-index: 300;
+    width: 360px;
+    font-size: 36px!important;
+  }
+  .srx-ico-i{
+    font-size: 36px;
+  }
+  .srx-input{
+    height: 50px;
+    border: solid 2px var(--little-green)!important;
+    border-radius: 20px;
+  }
+  .srx-grp-i{
+    background-color: var(--little-green);
+    border: none;
+    right: 0;
+  }
+  .srx-grp-i:hover{
+    color: #fff;
+  }
+#srx-addon-target{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    padding: 1px;
+    border: solid 2px var(--little-green);
+    border-radius: 20px;
+    background: var(--little-green);
+    z-index:601;
+}
+.srx-overlay{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background: var(--little-green);
+    opacity: 0.8;
+    top: 0;
+    z-index: 600;
+    right: 0;
+}
